@@ -1,6 +1,6 @@
 References:
-*. https://bertwagner.com/posts/converting-json-to-sql-server-create-table-statements/
-*. https://www.sqlshack.com/import-json-data-into-sql-server/
+*   https://bertwagner.com/posts/converting-json-to-sql-server-create-table-statements/
+*   https://www.sqlshack.com/import-json-data-into-sql-server/
 
 1. To create SQL table script from JSON use the code. (Reference Link: https://bertwagner.com/posts/converting-json-to-sql-server-create-table-statements/)
 Replace @JsonData Variable with your sample JSON object.
@@ -134,7 +134,7 @@ GROUP BY
 PRINT @CreateStatements;
 ```
 
-2: Import JSON file data into the SQL Server table.
+2: Import JSON file data into the SQL Server table. (Ref: https://www.sqlshack.com/import-json-data-into-sql-server/
 Update file path, JSON table name with actual table name, and update schema definition 
 ```
 Declare @JSON varchar(max)
@@ -155,6 +155,6 @@ WITH
 ```
 
 References:
-*. https://bertwagner.com/posts/converting-json-to-sql-server-create-table-statements/
-*. https://www.sqlshack.com/import-json-data-into-sql-server/
+*   https://bertwagner.com/posts/converting-json-to-sql-server-create-table-statements/
+*   https://www.sqlshack.com/import-json-data-into-sql-server/
 
